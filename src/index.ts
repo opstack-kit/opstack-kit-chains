@@ -1686,3 +1686,27 @@ export {
   createNonceManager,
   nonceManager,
 } from './utils/nonceManager.js'
+
+
+
+// Add - OP Stack Chains with "opstack-kit" //
+
+// L1 - Testnet
+export { sepolia } from './chains/definitions/sepolia.js'
+// L1 - Mainnet
+export { mainnet } from './chains/definitions/mainnet.js'
+/* ----------------------------------- */
+
+// L2 - Testnet
+export { optimismSepolia } from './chains/definitions/optimismSepolia.js'
+export { baseSepolia } from './chains/definitions/baseSepolia.js'
+export { zoraSepolia } from './chains/definitions/zoraSepolia.js'
+export { fraxtalTestnet } from './chains/definitions/fraxtalTestnet.js'
+export { modeTestnet } from './chains/definitions/modeTestnet.js'
+// L2 - Mainnet
+export { optimism } from './chains/definitions/optimism.js'
+export { base } from './chains/definitions/base.js'
+export { zora } from './chains/definitions/zora.js'
+export { fraxtal } from './chains/definitions/fraxtal.js'
+export { mode } from './chains/definitions/mode.js'
+export { redstone } from './chains/definitions/redstone.js'

@@ -24,7 +24,6 @@
     "lint:unused": "pnpm clean && knip",
     "postinstall": "git submodule update --init --recursive && pnpm contracts:build",
     "preinstall": "pnpx only-allow pnpm",
-    "prepare": "pnpm simple-git-hooks",
     "prepublishOnly": "bun .scripts/prepublishOnly.ts",
     "size": "size-limit",
     "test": "vitest -c ./test/vitest.config.ts dev",
@@ -71,12 +70,9 @@
     "vitest": "^1.0.4"
   },
   "trustedDependencies": ["c-kzg"],
-  "packageManager": "pnpm@9.1.0",
+  "packageManager": "pnpm@9.5.0",
   "engines": {
-    "node": "22.x"
-  },
-  "simple-git-hooks": {
-    "pre-commit": "pnpm lint"
+    "node": "^v20.11.1"
   },
   "knip": {
     "ignore": [".github/**", "environments/**", "vectors/**"],

@@ -1,8 +1,31 @@
 {
-  "name": "viem",
-  "description": "TypeScript Interface for Ethereum",
-  "version": "2.17.11",
-  "type": "module",
+  "name": "opstack-kit-chains",
+  "version": "1.0.0",
+  "description": "Support your OP-Stack network with 'opstack-kit'",
+  "repository": "https://github.com/opstack-kit/opstack-kit-chains",
+  "homepage": "https://opstack-kit.pages.dev/docs/opstack-kit-chains.html",
+  "authors": [
+    "Opstack Kit, opstack-kit, opstack-kit-chains"
+  ],
+  "keywords": [
+    "ethereum",
+    "eth",
+    "blockchain",
+    "dapps",
+    "web3",
+    "Optimism",
+    "OP",
+    "Superchain",
+    "tool",
+    "op-stack",
+    "opstack",
+    "opstack-kit",
+    "opstack-kit-chains",
+    "sdk",
+    "npm",
+    "docs"
+  ],
+  "license": "MIT",
   "main": "./_cjs/index.js",
   "module": "./_esm/index.js",
   "types": "./_types/index.d.ts",
@@ -104,20 +127,48 @@
   },
   "typesVersions": {
     "*": {
-      "accounts": ["./_types/accounts/index.d.ts"],
-      "actions": ["./_types/actions/index.d.ts"],
-      "celo": ["./_types/celo/index.d.ts"],
-      "chains": ["./_types/chains/index.d.ts"],
-      "chains/utils": ["./_types/chains/utils.d.ts"],
-      "ens": ["./_types/ens/index.d.ts"],
-      "experimental": ["./_types/experimental/index.d.ts"],
-      "experimental/solady": ["./_types/experimental/solady/index.d.ts"],
-      "node": ["./_types/node/index.d.ts"],
-      "op-stack": ["./_types/op-stack/index.d.ts"],
-      "siwe": ["./_types/siwe/index.d.ts"],
-      "utils": ["./_types/utils/index.d.ts"],
-      "window": ["./_types/window/index.d.ts"],
-      "zksync": ["./_types/zksync/index.d.ts"]
+      "accounts": [
+        "./_types/accounts/index.d.ts"
+      ],
+      "actions": [
+        "./_types/actions/index.d.ts"
+      ],
+      "celo": [
+        "./_types/celo/index.d.ts"
+      ],
+      "chains": [
+        "./_types/chains/index.d.ts"
+      ],
+      "chains/utils": [
+        "./_types/chains/utils.d.ts"
+      ],
+      "ens": [
+        "./_types/ens/index.d.ts"
+      ],
+      "experimental": [
+        "./_types/experimental/index.d.ts"
+      ],
+      "experimental/solady": [
+        "./_types/experimental/solady/index.d.ts"
+      ],
+      "node": [
+        "./_types/node/index.d.ts"
+      ],
+      "op-stack": [
+        "./_types/op-stack/index.d.ts"
+      ],
+      "siwe": [
+        "./_types/siwe/index.d.ts"
+      ],
+      "utils": [
+        "./_types/utils/index.d.ts"
+      ],
+      "window": [
+        "./_types/window/index.d.ts"
+      ],
+      "zksync": [
+        "./_types/zksync/index.d.ts"
+      ]
     }
   },
   "peerDependencies": {
@@ -137,16 +188,5 @@
     "abitype": "1.0.5",
     "isows": "1.0.4",
     "ws": "8.17.1"
-  },
-  "license": "MIT",
-  "homepage": "https://viem.sh",
-  "repository": "wevm/viem",
-  "authors": ["awkweb.eth", "jxom.eth"],
-  "funding": [
-    {
-      "type": "github",
-      "url": "https://github.com/sponsors/wevm"
-    }
-  ],
-  "keywords": ["eth", "ethereum", "dapps", "wallet", "web3", "typescript"]
+  }
 }
