@@ -80,7 +80,7 @@ yarn add opstack-kit-chains
 | optimism, base, zora, fraxtal, mode, redstone  |
 
 
-[Add networks](https://github.com/opstack-kit/opstack-kit-chains/?tab=readme-ov-file##you-can-add-opstack-kit-chains-a-network-at-this)
+[Add networks](https://github.com/opstack-kit/opstack-kit-chains/?tab=readme-ov-file#you-can-add-opstack-kit-chains-a-network-at-this)
 
 ## Example
 
