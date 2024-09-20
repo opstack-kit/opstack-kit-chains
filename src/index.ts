@@ -1703,6 +1703,7 @@ export { baseSepolia } from './chains/definitions/baseSepolia.js'
 export { zoraSepolia } from './chains/definitions/zoraSepolia.js'
 export { fraxtalTestnet } from './chains/definitions/fraxtalTestnet.js'
 export { modeTestnet } from './chains/definitions/modeTestnet.js'
+export { soneiumMinato } from './chains/definitions/soneiumMinato.js'
 // L2 - Mainnet
 export { optimism } from './chains/definitions/optimism.js'
 export { base } from './chains/definitions/base.js'

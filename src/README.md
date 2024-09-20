@@ -61,26 +61,26 @@ yarn add opstack-kit-chains
 
 ### L1
 <!-- #### L1 - Testnet -->
-| L1 - Testnet   |
+| L1 - Testnet |
 |-----------|
-| sepolia   |
+| sepolia |
 <!-- #### L1 - Mainnet -->
-| L1 - Mainnet   |
+| L1 - Mainnet |
 |-----------|
-| mainnet   |
+| mainnet |
 
 ### L2
 <!-- #### L2 - Testnet -->
-| L2 - Testnet          |
+| L2 - Testnet |
 |------------------|
-| optimismSepolia, baseSepolia, zoraSepolia, fraxtalTestnet, modeTestnet  |
+| optimismSepolia, baseSepolia, zoraSepolia, fraxtalTestnet, modeTestnet, soneiumMinato |
 <!-- #### L2 - Mainnet -->
 | L2 - Mainnet   |
 |-----------|
-| optimism, base, zora, fraxtal, mode, redstone  |
+| optimism, base, zora, fraxtal, mode, redstone, |
 
 
-[Add networks](https://github.com/opstack-kit/opstack-kit-chains/?tab=readme-ov-file#you-can-add-opstack-kit-chains-a-network-at-this)
+[Add networks](https://github.com/opstack-kit/opstack-kit-chains/?tab=readme-ov-file##you-can-add-opstack-kit-chains-a-network-at-this)
 
 ## Example
 
